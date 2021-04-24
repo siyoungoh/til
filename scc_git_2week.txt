@@ -1,0 +1,32 @@
+- 협업할 때는 아래의 단계를 따릅니다. 
+1단계. 누가 이 작업 할 것인지 정한다. - Issue
+2단계. 각자 맡은 것을 작업한다. - Branch
+3단계. 각자 작업을 프로젝트에 합친다. - merge
+(경우에 따라). 작업한 내용을 리뷰하고 최종적으로 프로젝트에 반영한다. - PR 후 merge
+- issue 는 내가 할 작업, 기능 추가, 버그 리포트 등 여러 방식으로 사용할 수 있습니다.
+- 협업을 하기 위해 issue 를 만들어 누가 작업할지 정하고, 브랜치를 만들어 작업할 공간을 나눕니다.
+- 브랜치(branch)는 특정 commit 에서 갈라져나와 작업할 수 있습니다. 우리는 기능별로 이름을 만들어주어 브랜치에 작업해줍니다.
+- 작업할 브랜치로 바꾸는 것을 체크아웃(checkout)이라고 합니다. 체크아웃된 브랜치에만 commit 이 반영됩니다.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0acc53c2-73b6-4212-ac19-06c91e512612/2week.002.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0acc53c2-73b6-4212-ac19-06c91e512612/2week.002.jpeg)
+
+- 브랜치의 작업 내역 commit 들을 다른 branch 로 반영(합치기)는 것을 **Merge(머지, 병합)** 이라고 부릅니다. 개발할 때는 기준이 되는 기본 브랜치를 정해놓고 해당 브랜치에 내용을 merge합니다. 우리는 main 브랜치에 작업 브랜치의 내용을 merge 했습니다.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e758619d-9f2b-41b0-bd3e-9a48584b0737/2week.012.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e758619d-9f2b-41b0-bd3e-9a48584b0737/2week.012.jpeg)
+
+- 브랜치명은 규칙을 가지고 잘 이름 지으면 프로젝트 관리가 쉬워집니다. 
+작업이 완료되면 작업한 브랜치는 보통 삭제해줍니다. 나중에 브랜치 설정이 꼬이는 것을 방지할 수 있습니다.
+- 각 작업 브랜치에서 작업할 때는 다른 브랜치의 영향을 받지 않고 독립적으로 작업할 수 있습니다. jjigae.txt 파일을 각각 브랜치에서 자유롭게 수정한 것처럼요!
+- Merge 하는 과정에서 같은 파일이 동일한 부분이 수정된 게 발견되면 **Merge conflict(병합 충돌)** 이 발생합니다.
+- Git 이 똑똑하게 충돌을 파악할 수 있도록 파일 내용을 고쳐서 충돌 내역을 보여줍니다.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5154bf5-1bfd-49e6-93e9-2ed318437f6b/mergeconfilct_14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5154bf5-1bfd-49e6-93e9-2ed318437f6b/mergeconfilct_14.png)
+
+- conflict 를 수정하려면 최종적으로 반영할 내역으로 고친 후에 merge commit 하면 됩니다.
+- tracking 한다는 것은 로컬 repo와 원격 repo의 특정 브랜치를 연결해주는 것입니다.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/272b3480-dc6b-4c4b-8cd9-951634ce6e27/2week.016.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/272b3480-dc6b-4c4b-8cd9-951634ce6e27/2week.016.jpeg)
+
+- push와 pull 은 기본적으로 tracking(추적)되고 있는 브랜치를 기준으로 commit 내역을 반영합니다.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d70c5ebb-834b-490f-8a71-eb86ddb69300/2week.017.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d70c5ebb-834b-490f-8a71-eb86ddb69300/2week.017.jpeg)
