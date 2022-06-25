@@ -8,8 +8,8 @@
   - focus will 어플 사용해볼 것. 
   - 다른 건 기분 전환을 위해 좋아하는 음악 재생목록으로 틈틈이 만들어 두자. chores 할 때 기분이 좋아진다. 경험적 근거를 사용해봤는데 의외로 괜찮네. 
   -> 2020.04.13 
-  - focus@will 이 더 괜찮다(경험 근거). 
-  cf. Mossbridge, Julia. "The Influence of Streamlined Music on Cognition and Mood." __arXiv preprint arXiv:1610.04255__ (2016). https://arxiv.org/abs/1610.04255 (관련 근거로 이거 하나 걸어두었는데 인용이 2회다 흠)
+    - focus@will 이 더 괜찮다(경험 근거).   
+    cf. Mossbridge, Julia. "The Influence of Streamlined Music on Cognition and Mood." __arXiv preprint arXiv:1610.04255__ (2016). https://arxiv.org/abs/1610.04255 (관련 근거로 이거 하나 걸어두었는데 인용이 2회다 흠)  
 
 - 이해 안 가지만 이해하고 싶은 것
     - - 어떻게 하면 이해할 수 있을까? 피상적으로 보기보다 겪어보는게 확실할 거 같은데. 경험을 어떻게 만들어 낼까?
