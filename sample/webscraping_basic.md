@@ -12,6 +12,7 @@
 
 
 ## 초 간단 스크래핑 예제
+- 코드 파일 전체 : https://gist.github.com/siyoungoh/4ffe1369a84039199d3feecb6b924b82
 - DOM 구조 이해하며 요소 찾아내기
 - Chrome 개발자도구 Inspector 사용
 [https://elastic-hugle-d528b6.netlify.app/demo/simple.html](https://elastic-hugle-d528b6.netlify.app/demo/simple.html)
@@ -313,6 +314,3 @@ for info in infos_like:
 
     print(station, rack, parking)
 ```
-
-
-코드 파일 전체 : https://gist.github.com/siyoungoh/4ffe1369a84039199d3feecb6b924b82
